@@ -36,7 +36,7 @@ _To extract text from image and draw bounding box around it_
 - Plot the boxes on the image and the text. I also added in a confidence percentage to be able to better understand what is going on under the hood and how to optimise it
 - Plot the image to the output in colab
 - I additionally went ahead and configured a few more languages to see if the kannada text could be better read but that did not yield any result
-## Challenges:
+### Challenges:
 - Installation of pyTesseract took me some time, especially figuring out why it was not working but thankfully, there were a few helpful posts on stack overflow
 - With any given mode only about 50% of the text was read and had terrible accuracy, so I had to combine 2 modes and filter by the confidence level to get better results
 
